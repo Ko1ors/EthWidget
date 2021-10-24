@@ -62,8 +62,8 @@
                 <Label Grid.Row="3" x:Name="labelNextUpdate" FontFamily="Arial Black" Content="Next update in --" FontSize="10" VerticalAlignment="Bottom"/>
             <Border Grid.Row="6" BorderBrush="Black" BorderThickness="0,1,0,0">
                 <StackPanel  Orientation="Horizontal" FlowDirection="RightToLeft">
-                    <Button Margin="10,0,0,0" Width="70" Height="25" Content="Cancel" Click="ExitButton_Click" Background="Transparent"/>
-                    <Button Margin="10,0,0,0" Width="50" Height="25" Content="Ok" Click="OkButton_Click"  Background="Transparent"/>
+                    <Button Margin="10,0,0,0" Width="70" Height="25" FontFamily="Arial Black" Content="Cancel" Click="ExitButton_Click" Background="Transparent"/>
+                    <Button Margin="10,0,0,0" Width="50" Height="25" FontFamily="Arial Black" Content="Ok" Click="OkButton_Click"  Background="Transparent"/>
                 </StackPanel>
             </Border>
         </Grid>
